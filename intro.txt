@@ -1,0 +1,8 @@
+MVC 패턴 실습 요약
+
+뷰 페이지 만들기(greetings.mustache) ->
+컨트롤러 만들기(FirstController.java) ->
+컨트롤러에서 뷰 페이지 반환하기 (return "greetings":  ->
+뷰 페이지에 변수 삽입하기 {{username}} ->
+컨트롤러에 모델 추가하기 niceToMeetYou(Model model)
+모델에서 변수 등록하기(model.addAttribute("username"."홍팍");
